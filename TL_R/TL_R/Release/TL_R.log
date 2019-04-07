@@ -1,0 +1,25 @@
+﻿生成启动时间为 2018/6/4 10:06:20。
+     1>项目“F:\OPENCV\TL_R\TL_R\TL_R.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\TL_R.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TLR.cpp
+         TLR.cpp
+     1>TLR.cpp(107): warning C4804: “<”: 在操作中使用类型“bool”不安全
+     1>TLR.cpp(186): warning C4002: “MAX”宏的实参太多
+     1>TLR.cpp(351): warning C4018: “<”: 有符号/无符号不匹配
+     1>TLR.cpp(367): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>TLR.cpp(670): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\OPENCV\TL_R\Release\TL_R.exe" /INCREMENTAL:NO /NOLOGO opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\OPENCV\TL_R\Release\TL_R.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\OPENCV\TL_R\Release\TL_R.lib" /MACHINE:X86 /SAFESEH Release\knn.obj
+         Release\main.obj
+         Release\stdafx.obj
+         Release\TLR.obj
+         Release\TL_R.obj
+     1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+         正在生成代码
+         已完成代码的生成
+         TL_R.vcxproj -> F:\OPENCV\TL_R\Release\TL_R.exe
+     1>已完成生成项目“F:\OPENCV\TL_R\TL_R\TL_R.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.12

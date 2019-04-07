@@ -1,0 +1,128 @@
+﻿生成启动时间为 2018/4/24 14:27:43。
+     1>项目“F:\OPENCV\TL_R\TL_R\TL_R.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\OPENCV\TL_R\x64\Release\TL_R.exe" /INCREMENTAL:NO /NOLOGO opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\OPENCV\TL_R\x64\Release\TL_R.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\OPENCV\TL_R\x64\Release\TL_R.lib" /MACHINE:X64 x64\Release\knn.obj
+         x64\Release\main.obj
+         x64\Release\stdafx.obj
+         x64\Release\TLR.obj
+         x64\Release\TL_R.obj
+     1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+     1>opencv_core2413.lib(persistence.obj) : error LNK2001: 无法解析的外部符号 gzputs
+     1>opencv_core2413.lib(persistence.obj) : error LNK2001: 无法解析的外部符号 gzgets
+     1>opencv_core2413.lib(persistence.obj) : error LNK2001: 无法解析的外部符号 gzrewind
+     1>opencv_core2413.lib(persistence.obj) : error LNK2001: 无法解析的外部符号 gzeof
+     1>opencv_core2413.lib(persistence.obj) : error LNK2001: 无法解析的外部符号 gzclose
+     1>opencv_core2413.lib(persistence.obj) : error LNK2001: 无法解析的外部符号 gzopen
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_std_error
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_CreateCompress
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_CreateDecompress
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_destroy_compress
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_destroy_decompress
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_stdio_dest
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_stdio_src
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_set_defaults
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_set_quality
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_alloc_huff_table
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_start_compress
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_write_scanlines
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_finish_compress
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_read_header
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_start_decompress
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_read_scanlines
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_finish_decompress
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2001: 无法解析的外部符号 jpeg_resync_to_restart
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFClose
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFGetField
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFScanlineSize
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFIsTiled
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFSetField
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFWriteScanline
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFReadRGBAStrip
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFReadRGBATile
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFRGBAImageOK
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFOpen
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFSetErrorHandler
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFSetWarningHandler
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFReadEncodedStrip
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2001: 无法解析的外部符号 TIFFReadEncodedTile
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_create_read_struct
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_create_write_struct
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_longjmp_fn
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_create_info_struct
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_write_info
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_read_info
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_expand_gray_1_2_4_to_8
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_palette_to_rgb
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_bgr
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_gray_to_rgb
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_rgb_to_gray
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_strip_alpha
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_swap
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_packing
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_interlace_handling
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_strip_16
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_read_update_info
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_read_image
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_write_image
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_write_end
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_read_end
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_destroy_read_struct
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_destroy_write_struct
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_filter
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_compression_level
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_compression_strategy
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_init_io
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_write_fn
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_read_fn
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_get_io_ptr
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_error
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_get_IHDR
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_set_IHDR
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2001: 无法解析的外部符号 png_get_tRNS
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_init
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_cleanup
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_stream_fopen
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_stream_close
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_cmprof_destroy
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_cmprof_createfromclrspc
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_matrix_create
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_matrix_destroy
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_create
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_destroy
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_decode
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_encode
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_readcmpt
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_writecmpt
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_getcmptbytype
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_strtofmt
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2001: 无法解析的外部符号 jas_image_chclrspc
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl Imf::Header::Header(int,int,float,class Imath::Vec2<float> const &,float,enum Imf::LineOrder,enum Imf::Compression)" (??0Header@Imf@@QEAA@HHMAEBV?$Vec2@M@Imath@@MW4LineOrder@1@W4Compression@1@@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl Imf::Header::~Header(void)" (??1Header@Imf@@QEAA@XZ)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: class Imath::Box<class Imath::Vec2<int> > const & __cdecl Imf::Header::dataWindow(void)const " (?dataWindow@Header@Imf@@QEBAAEBV?$Box@V?$Vec2@H@Imath@@@Imath@@XZ)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: class Imf::ChannelList & __cdecl Imf::Header::channels(void)" (?channels@Header@Imf@@QEAAAEAVChannelList@2@XZ)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: class Imf::ChannelList const & __cdecl Imf::Header::channels(void)const " (?channels@Header@Imf@@QEBAAEBVChannelList@2@XZ)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl Imf::Slice::Slice(enum Imf::PixelType,char *,unsigned __int64,unsigned __int64,int,int,double,bool,bool)" (??0Slice@Imf@@QEAA@W4PixelType@1@PEAD_K2HHN_N3@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: void __cdecl Imf::FrameBuffer::insert(char const * const,struct Imf::Slice const &)" (?insert@FrameBuffer@Imf@@QEAAXQEBDAEBUSlice@2@@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "int __cdecl Imf::globalThreadCount(void)" (?globalThreadCount@Imf@@YAHXZ)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl Imf::InputFile::InputFile(char const * const,int)" (??0InputFile@Imf@@QEAA@QEBDH@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: class Imf::Header const & __cdecl Imf::InputFile::header(void)const " (?header@InputFile@Imf@@QEBAAEBVHeader@2@XZ)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: void __cdecl Imf::InputFile::setFrameBuffer(class Imf::FrameBuffer const &)" (?setFrameBuffer@InputFile@Imf@@QEAAXAEBVFrameBuffer@2@@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: void __cdecl Imf::InputFile::readPixels(int,int)" (?readPixels@InputFile@Imf@@QEAAXHH@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl Imf::OutputFile::OutputFile(char const * const,class Imf::Header const &,int)" (??0OutputFile@Imf@@QEAA@QEBDAEBVHeader@1@H@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl Imf::OutputFile::~OutputFile(void)" (??1OutputFile@Imf@@UEAA@XZ)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: void __cdecl Imf::OutputFile::setFrameBuffer(class Imf::FrameBuffer const &)" (?setFrameBuffer@OutputFile@Imf@@QEAAXAEBVFrameBuffer@2@@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: void __cdecl Imf::OutputFile::writePixels(int)" (?writePixels@OutputFile@Imf@@QEAAXH@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl Imf::Channel::Channel(enum Imf::PixelType,int,int,bool)" (??0Channel@Imf@@QEAA@W4PixelType@1@HH_N@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: void __cdecl Imf::ChannelList::insert(char const * const,struct Imf::Channel const &)" (?insert@ChannelList@Imf@@QEAAXQEBDAEBUChannel@2@@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: struct Imf::Channel const * __cdecl Imf::ChannelList::findChannel(char const * const)const " (?findChannel@ChannelList@Imf@@QEBAPEBUChannel@2@QEBD@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "private: static short __cdecl half::convert(int)" (?convert@half@@CAFH@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "public: __cdecl Imf::Chromaticities::Chromaticities(class Imath::Vec2<float> const &,class Imath::Vec2<float> const &,class Imath::Vec2<float> const &,class Imath::Vec2<float> const &)" (??0Chromaticities@Imf@@QEAA@AEBV?$Vec2@M@Imath@@000@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "bool __cdecl Imf::hasChromaticities(class Imf::Header const &)" (?hasChromaticities@Imf@@YA_NAEBVHeader@1@@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "struct Imf::Chromaticities const & __cdecl Imf::chromaticities(class Imf::Header const &)" (?chromaticities@Imf@@YAAEBUChromaticities@1@AEBVHeader@1@@Z)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2001: 无法解析的外部符号 "private: static unsigned short const * const half::_eLut" (?_eLut@half@@0QBGB)
+     1>F:\OPENCV\TL_R\x64\Release\TL_R.exe : fatal error LNK1120: 113 个无法解析的外部命令
+     1>已完成生成项目“F:\OPENCV\TL_R\TL_R\TL_R.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.60
